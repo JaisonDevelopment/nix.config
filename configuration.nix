@@ -1,6 +1,7 @@
 { config, pkgs, lib, ... }:
 
 {
+  home.stateVersion = "22.05";
   imports = 
     [
 	./flake.nix
@@ -104,8 +105,6 @@
     createHome = true;
     home = "/home/jack";
   }
-  
-  home.stateVersion = "22.05";
 
 }
 
