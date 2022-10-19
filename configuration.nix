@@ -104,7 +104,7 @@
     group = "wheel";
     createHome = true;
     home = "/home/jack";
-  }
+  };
 
 }
 
